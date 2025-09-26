@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos</title>
+</head>
+<body>
+    <a href="/index.html"><img src="/imgs/images.png" alt="retroceder" width="56px"></a>
+    <script>
+        /*
+         Codigo:
+    Objetivo: Introducir nombre, precio y descuento, recibir el nombre, precio con descuento 
+    Fecha:22 de septiembre 2025
+    autor: By nandez REN
+        */
+
+        let nombre=prompt("cual es el producto?")
+         let precio=prompt("cual es el precio?") 
+         let descuento=prompt("Cual es el porcentaje de descuento?")
+         let preciofinal=parseFloat(precio)*parseFloat(descuento)/100;
+         let final=parseFloat(precio)-parseFloat(preciofinal);
+
+         console.log("El precio del producto",nombre,"es",precio,"El porcentaje de descuento es",descuento,"%","Ël precio final es",final)
+    </script>
+</body>
+</html>

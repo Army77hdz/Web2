@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <a href="../../../index.html"><img src="../../../imgs/images.png" alt="retroceder" width="56px"></a>
+    <!--- 
+Codigo:12
+Objetivo:conocer conocer la estructura basica de html
+fecha:23/9/25
+Autor:Nandez Ren
+-->
+<h1>Ejemplo1</h1>
+<p>Permite al usuario introduzca informacion, para posteriormente
+     ser procesada en un servidor local o remoto
+</p>
+<form action="#">
+    Nombre <br> <input type="text"> <br>
+    Edad <br> <input type="text"> <br>
+    especialidad <br> <select name="" id="">
+        <option value="">Programacion</option>
+        <option value="">Mecatronica</option>
+        <option value="">Administracion de recursos humanos</option>
+
+    </select><br><br>
+    <input type="submit" name="" id="">
+</form>
+  <br><br>
+<h2>Ejemplo 2</h2>
+<form action="#">
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td><input type="text"></td>
+        <td>Edad</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>especialidad</td>
+        <td>
+            <select name="" id="">
+        <option value="">Programacion</option>
+        <option value="">Mecatronica</option>
+        <option value="">Administracion de recursos humanos</option>
+            </select></td>
+        <td></td>
+        <td><input type="submit" value="enviar"></td>
+    </tr>
+
+    <tr></tr>
+    <tr></tr>
+</table>
+</form>
+
+<h2>Ejemplo 3</h2>
+<form action="#">
+<table width="80%">
+    <tr>
+        <td><label for="nombre">Nombre</label></td>
+        <td><input type="text" name="nombre" required></td>
+
+        <td><label for="ap">Apaterno</label></td>
+        <td><input type="text" name="ap" required></td>
+
+        <td><label for="am">Amaterno</label></td>
+        <td><input type="text" name="am" required></td>
+
+        <td><label for="fnacimiento">Fecha Nacimiento</label></td>
+        <td><input type="date" name="fnacimiento" id=""></td>
+
+        <td><label for="Hnacimiento">Hora de Nacimiento</label></td>
+        <td><input type="time" name="Hnacimiento" id=""></td>
+
+        <td><label for="edad">Edad</label></td>
+        <td><input type="number" name="edad" ></td>
+    </tr>
+    <tr>
+         <td><label for="telefono">Telefono</label></td>
+        <td><input type="tel" name="telefono" id="" ></td>
+
+        <td><label for="mail">Email</label></td>
+        <td><input type="email" name="mail"  ></td>
+
+        <td><label for="redess">Redsocial</label></td>
+        <td><input type="url" name="redess" id="" ></td>
+
+        
+        <td><label for="">especialidad</label></td>
+        <td><select name="" id="" required>
+        <option value="">Programacion</option>
+        <option value="">Mecatronica</option>
+        <option value="">Administracion de recursos humanos</option></td>
+        </select>
+        <td><input type="button" value="enviar"></td>
+    </tr>
+
+
+
+   
+
+</body>
+</html>
