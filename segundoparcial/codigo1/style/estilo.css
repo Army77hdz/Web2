@@ -1,0 +1,39 @@
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #000000;
+color: antiquewhite;
+border: 10px #c60d0d;
+border-style:dotted;
+}
+
+h1{
+font-family: Arial, Helvetica, sans-serif;
+}
+p{
+font-family: 'Times New Roman', Times, serif;
+text-align:justify
+}
+.Titulo1{
+    color:#0694a1;
+    font-family: fantasy;
+}
+.Parrafo1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+.Titulo2{
+    color: #0694a1;
+    font-family: fantasy;
+}
+.Parrafo2{
+    font-size:x-large;
+    
+}
+.Titulo3{
+    color: #0694a1;
+    font-family: fantasy;
+}
+.Parrafo3{
+    font-family: monospace;
+    font-size:x-large;
+}
