@@ -26,6 +26,14 @@ p{
     line-height: 1.5;
     text-align: justify;
 }
+.retroceso{
+    width: 56px;
+    height: auto;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
 /*Estilos para imagenes*/
 img{
     width: 400px;
@@ -36,13 +44,14 @@ img{
     margin: 20px auto;
 }
 /*Estilos para tabla*/
+
 table{
-    width: 80%;
+    width: 100%;
     margin: 20px auto;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
     font-size: 14px;
-    color:#333
+    color:#333;
 }
 th{
     background-color:#0000ff;
@@ -52,22 +61,61 @@ th{
     text-align: left;
     border:1px solid #0000ff;
 }
+
 td{
     background-color:#ffffff;
-    color:#e74c3c;
+    color:#e43e2b;
     padding: 8px;
     text-align: left;
     border: 1px solid #0000ff;
 }
-tbody tr:nth-child(even){
-    background-color: #ecf0f1;
+
+.Descripciones{
+    background-color:#ffffff;
+    color:#873a3a;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #0000ff;
 }
+tbody tr:hover td,
+        tbody tr:hover .Descripciones {
+            background-color: #e6e6ff; 
+        }
 .parrafo2{
     color: chartreuse;
     font-size: 18px;
 }
+
 ul{
     font-family:italic;
     font-weight: 14px;
     color: #0000ff;
 }
+a{
+    color: #0000ff;
+    font-family: underline;
+    font-size: 16px;
+}
+.imagene{
+  border: 3px solid ;
+  border-radius: 15px;
+  width: 300px;
+  border-color: #27ae60;
+}
+.form-suscription{
+    font-family: sans-serif;
+    width: 14px;
+    color: #333;
+    background-color: #ecf0f1;
+    border: 1px solid #3498db;
+
+}
+.copy{
+    color: #ffffff;
+    background-color: #34495e;
+    font-family: italic;
+    font-size: 12px;
+    text-align: center;
+}
+   
+    
